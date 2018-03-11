@@ -1,0 +1,596 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SkyPlane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyBehavior.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleFly.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMainGun.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySimpleBomb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyRedPlane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SlantFly.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyNoWay.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBluePlane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyPrimaryPlane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySeniorPlane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyYellowPlane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BezierFly.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TrackBomb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TrackFly.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PropellerPlane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Tank.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TankBomb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Star.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Heart.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Wing.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerWingGun.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerTrackBomb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerTrackFly.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyPlane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cloud.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StrangeFly.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Angela.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Music.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AimFly.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BossLeft.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BossRight.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BossMid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SkyPlane.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyBehavior.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleFly.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemySimpleBomb.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMainGun.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyRedPlane.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SlantFly.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyNoWay.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBluePlane.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyPrimaryPlane.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemySeniorPlane.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyYellowPlane.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BezierFly.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TrackBomb.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TrackFly.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PropellerPlane.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Tank.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TankBomb.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Star.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Heart.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Wing.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerWingGun.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerTraceBomb.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerTrackFly.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyPlane.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cloud.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StrangeFly.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Angela.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Music.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AimFly.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BossLeft.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BossRight.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BossMid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SkyPlane.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\SkyPlane.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\wave1.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\wave2.bin">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\SkyPlane.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\a4-5.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\a4-6.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\BackGround.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\bomb1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\bomb6.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\bomb11.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\bomb16.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\expl_001.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\Gun2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\MYPLANE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\Plane.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\player.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\zidan1-1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Desktop\预选飞机\a4-1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Desktop\预选飞机\a4-2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Desktop\预选飞机\a4-3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Desktop\预选飞机\a4-4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Desktop\子弹\track_bomb.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Desktop\预选飞机\a2-3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Desktop\子弹\bomb17.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Desktop\子弹\props1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Desktop\预选飞机\enemy_other_0.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Desktop\子弹\bomb_guangqiu22.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\bomb_guangqiu22.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\bomb2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\enemy_other_0.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\star.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\icon.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\icon_health.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\shot_02.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\img_cloud_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\img_cloud_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\img_cloud_3  .png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\img_cloud_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\smoke_particle2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\未标题-2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\飞机\box.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\飞机\a4-5.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\飞机\a4-6.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\背景\BackGround.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\子弹\bomb1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\子弹\bomb6.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\子弹\bomb11.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\子弹\bomb16.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\爆炸\expl_001.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\爆炸\Gun2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\飞机\MYPLANE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\飞机\Plane.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\飞机\player.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\子弹\zidan1-1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\飞机\a4-1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\飞机\a4-2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\飞机\a4-3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\飞机\a4-4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\飞机\a2-3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\子弹\bomb17.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\飞机\enemy_other_0.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\子弹\bomb_guangqiu22.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\子弹\bomb2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\道具\star.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\道具\icon.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\道具\health.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\子弹\shot_02.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\其他\img_cloud_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\其他\img_cloud_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\其他\img_cloud_3  .png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\其他\img_cloud_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\其他\smoke_particle2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\飞机\angela.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\飞机\boss6t_0.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\飞机\boss6t_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\资源图片\飞机\boss6t_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\Sound\1_player_missile.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="..\Sound\4_player_shot.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="..\Sound\19_enemy_single_shot.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="..\Sound\24_expl_small.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="..\Sound\63_lvl_selector_mission_begins.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="..\Sound\105_mas_ingame2.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
